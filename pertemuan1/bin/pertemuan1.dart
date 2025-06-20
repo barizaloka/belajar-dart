@@ -1,5 +1,10 @@
-import 'package:pertemuan1/pertemuan1.dart' as pertemuan1;
+void main() {
+  dynamic nilaiSaya = 10; // Awalnya int
+  print('Nilai saya: $nilaiSaya'); // Output: Nilai saya: 10
 
-void main(List<String> arguments) {
-  print('Hello world: ${pertemuan1.calculate()}!');
+  nilaiSaya = 'Sepuluh'; // Sekarang jadi String
+  print('Nilai saya (teks): $nilaiSaya'); // Output: Nilai saya (teks): Sepuluh
+
+  nilaiSaya = true; // Sekarang jadi bool
+  print('Nilai saya (boolean): $nilaiSaya'); // Output: Nilai saya (boolean): true
 }
