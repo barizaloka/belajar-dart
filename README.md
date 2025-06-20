@@ -1,0 +1,1 @@
+Selanjtunya akan membahas tentang operator
